@@ -1,0 +1,5 @@
+python-keepalive (0.5-1) UNRELEASED; urgency=low
+
+  * Initial release. (Closes: #847319)
+
+ -- Ghislain Antony Vaillant <ghisvail@gmail.com>  Tue, 06 Dec 2016 11:42:51 +0000

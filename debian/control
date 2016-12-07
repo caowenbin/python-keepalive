@@ -1,0 +1,36 @@
+Source: python-keepalive
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Ghislain Antony Vaillant <ghisvail@gmail.com>
+Section: python
+Testsuite: autopkgtest-pkg-python
+Priority: optional
+Build-Depends: debhelper (>= 10),
+               dh-python,
+               python-all,
+               python-setuptools,
+               python3-all,
+               python3-setuptools,
+Standards-Version: 3.9.8
+Vcs-Browser: https://anonscm.debian.org/cgit/python-modules/packages/python-keepalive.git
+Vcs-Git: https://anonscm.debian.org/git/python-modules/packages/python-keepalive.git
+Homepage: https://github.com/wikier/keepalive
+X-Python-Version: >= 2.6
+X-Python3-Version: >= 3.3
+
+Package: python-keepalive
+Architecture: all
+Depends: ${misc:Depends},
+         ${python:Depends}
+Description: urllib keepalive support for Python 2
+ An HTTP handler for urllib2 that supports HTTP 1.1 and keepalive.
+ .
+ This package provides keepalive for Python 2.
+
+Package: python3-keepalive
+Architecture: all
+Depends: ${misc:Depends},
+         ${python3:Depends}
+Description: urllib keepalive support for Python 3
+ An HTTP handler for urllib2 that supports HTTP 1.1 and keepalive.
+ .
+ This package provides keepalive for Python 3.
