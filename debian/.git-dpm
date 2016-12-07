@@ -6,3 +6,6 @@
 python-keepalive_0.5.orig.tar.gz
 039bd8d282cd5220489837d9bb447ead9b43f97a
 8029
+debianTag="debian/%e%v"
+patchedTag="patched/%e%v"
+upstreamTag="upstream/%e%u"
