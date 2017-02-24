@@ -1,3 +1,9 @@
+python-keepalive (0.5-1~bpo8+1) jessie-backports; urgency=medium
+
+  * Rebuild for jessie-backports.
+
+ -- Andreas Tille <tille@debian.org>  Fri, 24 Feb 2017 19:42:56 +0100
+
 python-keepalive (0.5-1) unstable; urgency=low
 
   * Initial release. (Closes: #847319)
