@@ -1,3 +1,10 @@
+python-keepalive (0.5-1kern1) xenial; urgency=medium
+
+  * make less strict for xenial
+  * make rebuildable, cleanup
+
+ -- KERN packaging <packaging@kernsuite.info>  Tue, 07 Nov 2017 13:46:31 +0200
+
 python-keepalive (0.5-1) unstable; urgency=low
 
   * Initial release. (Closes: #847319)
