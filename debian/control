@@ -4,7 +4,7 @@ Uploaders: Ghislain Antony Vaillant <ghisvail@gmail.com>
 Section: python
 Testsuite: autopkgtest-pkg-python
 Priority: optional
-Build-Depends: debhelper (>= 10),
+Build-Depends: debhelper (>= 9),
                dh-python,
                python-all,
                python-setuptools,
